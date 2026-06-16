@@ -1,161 +1,115 @@
-#  DecodeLabs To-Do List App
-
-> A terminal-based student task management application built with Python — Task 1
+# 📝 DecodeLabs To-Do List App Project 1
 
 ---
 
-##  Overview
+## 📌 Overview
 
-The **DecodeLabs To-Do List App** is a command-line application designed to help manage and track student tasks. It allows users to add tasks with student details, view all tasks with their current status, mark tasks as completed, and delete tasks — all through a simple interactive menu.
-
----
-
-##  Features
-
--  **Add Tasks** — Register student name, roll number, task name, and due date
-- **View Tasks** — Display all tasks with their completion status
--  **Mark as Completed** — Update the status of any task to "Completed"
--  **Delete Tasks** — Remove tasks by their index number
--  **Interactive Menu Loop** — Continuous prompts until the user chooses to exit
+The **DecodeLabs To-Do List App** is a terminal-based Python application designed to help manage student tasks efficiently. It allows users to add tasks with student details, view all tasks, mark tasks as completed, and delete tasks — all through a simple command-line interface.
 
 ---
 
-##  Tech Stack
+## 🎯 Objectives
 
-| Technology | Details         |
-|------------|-----------------|
-| Language   | Python 3.      |
-| Paradigm   | Object-Oriented Programming |
-| Interface  | Command-Line Interface   |
-| Libraries  | (Built-In) |
+- Learn Object-Oriented Programming (OOP) in Python 🐍  
+- Understand class and object relationships  
+- Practice CRUD operations (Create, Read, Update, Delete)  
+- Build a real-world terminal-based application  
+- Improve logic building and problem-solving skills  
 
 ---
 
-## Project Structure
+## 🚀 Features
 
-```
+- ➕ Add student tasks with name, roll number, task, and date  
+- 📋 View all tasks in a structured format  
+- ✅ Mark tasks as completed  
+- 🗑️ Delete tasks  
+- 📊 Track task status (Completed / Not Completed)  
+- 💻 Simple interactive CLI menu  
+
+---
+
+## 🛠️ Technologies Used
+
+### 🐍 Programming Language
+- Python
+
+### 📚 Concepts Used
+- Object-Oriented Programming (OOP)
+- Classes and Objects
+- Lists
+- Loops
+- Conditional Statements
+- Functions & Methods
+- Command Line Interface (CLI)
+
+---
+
+## 📂 Project Structure
+
+
 DecodeLabs-ToDo-App/
 │
-├── todo_app.py       # Main application file
-└── README.md         # Project documentation
-```
+├── todo_app.py
+├── README.md
+└── assets/
+└── (optional images)
+
 
 ---
 
-##  How to Run
+## ⚙️ Installation
 
-### Prerequisites
+Follow these steps to run the project locally:
 
-- Python 3.13.5 installed on your system
-
-### Steps
-
+### 1️⃣ Clone the repository
 ```bash
-# 1. Clone or download the project
-git clone https://github.com/itxkhan8080-Maker/DecodeLabs.Tech_Task1/tree/main
-
-# 2. Navigate into the project folder
-cd To-Do-List_DecodeLabs.py
-
-# 3. Run the application
-python To-Do List_DecodeLabs.py
-```
-
----
-
-## Usage
-
-Once the program runs, you'll see the following menu:
-
-```
+git clone <repository-url>
+2️⃣ Navigate to project folder
+cd DecodeLabs-ToDo-App
+3️⃣ Run the program
+python todo_app.py
+💻 Usage
+Run the program in terminal
+Choose an option from the menu:
+Add Task
+View Tasks
+Complete Task
+Delete Task
+Exit
+Enter required details when prompted
+Manage student tasks easily
+🖥️ Program Menu Example
 ===================================
-               MENU
+               MENU                
 ===================================
 1. Add Task
 2. View Tasks
 3. Complete Task
 4. Delete Task
 5. Exit
-```
-
-### Example Workflow
-
-**Adding a Task:**
-```
-Enter choice: 1
-Enter Student Name: Ali Hassan
-Enter Roll Number: 221
-Enter Task Name: Submit Lab Report
-Enter Date (DD-MM-YYYY): 20-06-2025
-Task Added Successfully!
-```
-
-**Viewing Tasks:**
-```
+📋 Example Output
 -----------------------------------
 Task Number: 0
-Student Name: Ali Hassan
-Student Roll Number: 221
-Task: Submit Lab Report
-Task Date: 20-06-2025
+Student Name: Ali
+Roll Number: 101
+Task: Math Assignment
+Date: 17-06-2026
 Status: Not Completed
-```
+📈 Future Improvements
+💾 Add file storage (save tasks permanently)
+🔍 Add search feature (by roll number or name)
+⏰ Add deadlines and reminders
+📊 Add priority levels (High / Medium / Low)
+📱 Convert into GUI-based application
+👨‍💻 Author
+Name: Hamza Khan Sherwani
+Project: DecodeLabs To-Do List App
+Language: Python 🐍
+📞 Contact
+📧 Email: your-email@example.com
+🔗 LinkedIn: https://linkedin.com/in/your-profile
+💻 GitHub: https://github.com/yourusername
+📄 License
 
-**Marking as Completed:**
-```
-Enter choice: 3
-Enter Task Number: 0
-Task Completed!
-```
-
-**Deleting a Task:**
-```
-Enter choice: 4
-Enter Task Number: 0
-Task Deleted Successfully!
-```
-
----
-
-## Class Design
-
-### `Task`
-Represents an individual student task.
-
-| Attribute       | Type    | Description                          |
-|----------------|---------|--------------------------------------|
-| `Studentname`  | `str`   | Name of the student                  |
-| `Rollnum`      | `str`   | Student's roll number                |
-| `Taskname`     | `str`   | Name/description of the task         |
-| `date`         | `str`   | Due date in DD-MM-YYYY format        |
-| `completed`    | `bool`  | Task completion status (default: False) |
-
-| Method                  | Description                        |
-|-------------------------|------------------------------------|
-| `Show_completed_task()` | Marks the task as completed        |
-
----
-
-### `ToDoListApp`
-Manages the collection of tasks.
-
-| Method                                          | Description                              |
-|-------------------------------------------------|------------------------------------------|
-| `add_details(name, rollno, taskname, date)`     | Creates and adds a new Task object       |
-| `view_details()`                                | Prints all tasks with their status       |
-| `completed_task(index)`                         | Marks the task at the given index as done |
-| `deleted_task(index)`                           | Removes the task at the given index      |
-
----
-
-##  Author
-
-**DecodeLabs — Task 1**
-
-> Built as part of the DecodeLabs Python learning series.
-
----
-
-## License
-
-This project is open-source and free to use for educational purposes.
+This project is licensed under the MIT License © 2026 Hamza Khan Sherwani.
