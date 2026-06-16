@@ -1,26 +1,26 @@
-# 📝 DecodeLabs To-Do List App
+#  DecodeLabs To-Do List App
 
 > A terminal-based student task management application built with Python — Task 1
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The **DecodeLabs To-Do List App** is a command-line application designed to help manage and track student tasks. It allows users to add tasks with student details, view all tasks with their current status, mark tasks as completed, and delete tasks — all through a simple interactive menu.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ **Add Tasks** — Register student name, roll number, task name, and due date
-- 📋 **View Tasks** — Display all tasks with their completion status
-- ✔️ **Mark as Completed** — Update the status of any task to "Completed"
-- 🗑️ **Delete Tasks** — Remove tasks by their index number
-- 🔁 **Interactive Menu Loop** — Continuous prompts until the user chooses to exit
+-  **Add Tasks** — Register student name, roll number, task name, and due date
+- **View Tasks** — Display all tasks with their completion status
+-  **Mark as Completed** — Update the status of any task to "Completed"
+-  **Delete Tasks** — Remove tasks by their index number
+-  **Interactive Menu Loop** — Continuous prompts until the user chooses to exit
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Details         |
 |------------|-----------------|
@@ -31,7 +31,7 @@ The **DecodeLabs To-Do List App** is a command-line application designed to help
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 DecodeLabs-ToDo-App/
@@ -42,7 +42,7 @@ DecodeLabs-ToDo-App/
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 ### Prerequisites
 
@@ -63,7 +63,7 @@ python To-Do List_DecodeLabs.py
 
 ---
 
-## 🖥️ Usage
+## Usage
 
 Once the program runs, you'll see the following menu:
 
@@ -117,7 +117,7 @@ Task Deleted Successfully!
 
 ---
 
-## 🧱 Class Design
+## Class Design
 
 ### `Task`
 Represents an individual student task.
@@ -148,7 +148,7 @@ Manages the collection of tasks.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **DecodeLabs — Task 1**
 
@@ -156,6 +156,6 @@ Manages the collection of tasks.
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and free to use for educational purposes.
