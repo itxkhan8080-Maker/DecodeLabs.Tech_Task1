@@ -32,12 +32,7 @@ The **DecodeLabs To-Do List App** is a terminal-based Python application designe
 ---
 ## 📂 Project Structure
 ```
-DecodeLabs-ToDo-App/
-│
-├── todo_app.py
-├── README.md
-└── assets/
-    └── (optional images)
+To-Do List App_DecodeLabs.py
 ```
 ---
 ## ⚙️ Installation
@@ -48,11 +43,11 @@ git clone <repository-url>
 ```
 ### 2️⃣ Navigate to project folder
 ```bash
-cd DecodeLabs-ToDo-App
+cd To-Do List App_DecodeLabs.py
 ```
 ### 3️⃣ Run the program
 ```bash
-python todo_app.py
+python To-Do List App_DecodeLabs.py
 ```
 ---
 ## 💻 Usage
