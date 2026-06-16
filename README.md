@@ -1,6 +1,6 @@
 # 📝 DecodeLabs To-Do List App
 
-> A terminal-based student task management application built with Python — Project 1
+> A terminal-based student task management application built with Python — Task 1
 
 ---
 
