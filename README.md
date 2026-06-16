@@ -24,10 +24,10 @@ The **DecodeLabs To-Do List App** is a command-line application designed to help
 
 | Technology | Details         |
 |------------|-----------------|
-| Language   | Python 3.x      |
-| Paradigm   | Object-Oriented |
-| Interface  | Command-Line    |
-| Libraries  | None (built-in) |
+| Language   | Python 3.      |
+| Paradigm   | Object-Oriented Programming |
+| Interface  | Command-Line Interface   |
+| Libraries  | (Built-In) |
 
 ---
 
@@ -46,19 +46,19 @@ DecodeLabs-ToDo-App/
 
 ### Prerequisites
 
-- Python 3.x installed on your system
+- Python 3.13.5 installed on your system
 
 ### Steps
 
 ```bash
 # 1. Clone or download the project
-git clone https://github.com/your-username/decodelabs-todo-app.git
+git clone https://github.com/itxkhan8080-Maker/DecodeLabs.Tech_Task1/tree/main
 
 # 2. Navigate into the project folder
-cd decodelabs-todo-app
+cd To-Do-List_DecodeLabs.py
 
 # 3. Run the application
-python todo_app.py
+python To-Do List_DecodeLabs.py
 ```
 
 ---
@@ -148,19 +148,9 @@ Manages the collection of tasks.
 
 ---
 
-## 🔮 Future Improvements
-
-- [ ] Save tasks to a file (JSON/CSV) for persistence across sessions
-- [ ] Add input validation for date format and roll number
-- [ ] Implement task search and filter functionality
-- [ ] Add a priority level field (High / Medium / Low)
-- [ ] Build a GUI version using `tkinter` or a web version with Flask
-
----
-
 ## 👨‍💻 Author
 
-**DecodeLabs — Project 1**
+**DecodeLabs — Task 1**
 
 > Built as part of the DecodeLabs Python learning series.
 
