@@ -86,6 +86,15 @@ Task: Math Assignment
 Date: 17-06-2026
 Status: Not Completed
 ```
+
+## 📸 Screenshots
+
+### Program Menu
+![Expense Tracker Menu](screenshots/menu1.png)
+
+### Add Expense
+![Add Expense](screenshots/add1.png)
+
 ---
 ## 📈 Future Improvements
 - 💾 Add file storage (save tasks permanently)
