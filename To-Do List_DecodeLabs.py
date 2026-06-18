@@ -25,6 +25,7 @@ class ToDoListApp:
     def add_details(self, Studentname, Rollnum, Taskname, date):
         add_task = Task(Studentname, Rollnum, Taskname, date)
         self.tasks.append(add_task)
+        self.save_tasks()
         print("Task Added Successfully!")
 
     #                                         ---:( Viewing Task's ):---
@@ -50,6 +51,7 @@ class ToDoListApp:
     def completed_task(self, index):
         if 0 <= index < len(self.tasks):
             self.tasks[index].Show_completed_task()
+            self.save_tasks()
             print("Task Completed!")
         else:
             print("Invalid Task Number!")
@@ -59,12 +61,30 @@ class ToDoListApp:
     def deleted_task(self, index):
         if 0 <= index < len(self.tasks):
             self.tasks.pop(index)
+            self.save_tasks()
             print("Task Deleted Successfully!")
         else:
             print("Invalid Task!")
+            
+    
+     #                                       ---:( File Handling ):---   
+     
+     
+    def save_tasks(self):
 
+        file = open("tasks.txt", "w")
 
+        for task in self.tasks:
 
+            file.write("Student Name:\n"+task.Studentname)
+            file.write("Student Name:\n"+task.Rollnum)
+            file.write("Task Name:\n"+task.Taskname)
+            file.write("Date:\n"+task.date)
+            file.write("Status:\n"+str(task.completed))
+
+        file.close()
+     
+     
     #                                        ---:( Main Program ):---
 
 todo = ToDoListApp()
