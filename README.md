@@ -14,7 +14,8 @@ The **DecodeLabs To-Do List App** is a terminal-based Python application designe
 - ➕ Add student tasks with name, roll number, task, and date  
 - 📋 View all tasks in a structured format  
 - ✅ Mark tasks as completed  
-- 🗑️ Delete tasks  
+- 🗑️ Delete tasks
+- File Handling 
 - 📊 Track task status (Completed / Not Completed)  
 - 💻 Simple interactive CLI menu  
 ---
@@ -28,6 +29,7 @@ The **DecodeLabs To-Do List App** is a terminal-based Python application designe
 - Loops
 - Conditional Statements
 - Functions & Methods
+- File Handling
 - Command Line Interface (CLI)
 ---
 ## 📂 Project Structure
@@ -60,6 +62,7 @@ python To-Do List App_DecodeLabs.py
    - Exit
 3. Enter required details when prompted
 4. Manage student tasks easily
+5. Use File Handling in which tasks are saved
 ---
 ## 🖥️ Program Menu Example
 ```
